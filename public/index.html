@@ -1,1 +1,21 @@
-index.html
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Hangman</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Hangman</h1>
+		<p id="word"></p>
+		<form name="guessForm">
+			<input name="input" type="text" size="5" maxlength="1">
+			<input name="guessButton" type="button" value="Guess" onClick="letterMatch()">
+
+			<p id="guessedLetters">Wrong Letters:</p>
+			<img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
+			<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+		</form>
+		<script src="js/hangman.js"></script>
+	</body>
+</html>
