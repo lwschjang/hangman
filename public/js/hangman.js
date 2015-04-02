@@ -1,10 +1,9 @@
 var wordArray = [
-["T", "R", "E", "E", "H", "O", "U", "S", "E"],
+["H", "A", "N", "G", "M", "A", "N"],
   ["J","A","V","A","S","C","R","I","P","T"],
   ["W","E","B","D","E","S","I","G","N"],
   ["E","D","U","C","A","T","I","O","N"],
-  ["C","H","O","C","O","L","A","T","E"],
-  ["G","E","R","M","A","N","Y"]
+  ["C","H","O","C","O","L","A","T","E"]
 ]
 var random = Math.floor((Math.random()*(wordArray.length-1))); 
 
